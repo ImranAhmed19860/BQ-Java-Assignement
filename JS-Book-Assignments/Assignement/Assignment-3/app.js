@@ -16,7 +16,7 @@ var visitCount = localStorage.getItem("visitCount");
 
 
 // Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:My birth year is 2005 Data type of my declared variable is number
-var birthYear = 2005;
+var birthYear = 1995;
     document.write("My birth year is " + birthYear + "<br>");
     document.write("Data type of my declared variable is " + typeof birthYear);
 

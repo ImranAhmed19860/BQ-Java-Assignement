@@ -1,5 +1,5 @@
 // Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:
-var value = 10;
+var value = 1;
 var newValue = ++value;
 var newValue1 = value++;
 var newValue2 = --value;

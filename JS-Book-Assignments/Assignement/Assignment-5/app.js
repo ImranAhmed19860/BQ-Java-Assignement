@@ -1,16 +1,16 @@
 // Write a program that take two numbers & add them in a new variable. Show the result in your browser.
-var numbers = 10 + 8;
+var numbers = 10 + 118;
 document.write(numbers.toString() + "<br>");
 
 
 // Repeat task1 for subtraction, multiplication, division & modulus
-var numberMinus = 10 - 8;
+var numberMinus = 120 - 8;
 document.write(numberMinus.toString() + "<br>");
-var numberMultiplication = 10 * 8;
+var numberMultiplication = 100 * 8;
 document.write(numberMultiplication.toString() + "<br>");
-var numberDivision = 10 / 8;
+var numberDivision = 100/ 8;
 document.write(numberDivision.toString() + "<br>");
-var numberModulous = 10 % 8;
+var numberModulous = 1000 % 8;
 document.write(numberModulous.toString() + "<br>");
 
 
@@ -38,20 +38,20 @@ var newNum = ++number;
 var increment = "Value after increment is:"
 document.write(increment + newNum.toString() + "<br>");
 var show = "Value after addition is:"
-var add = 7;
+var add = 71;
 var addNum = newNum + add;
 document.write(show + addNum.toString() + "<br>");
 var subtract = "Value after decrement is:";
 var subtractNum = --addNum;
 document.write(subtract + subtractNum.toString() + "<br>");
 var divide = "The remainder is :";
-var divideNum = subtractNum / 3;
+var divideNum = subtractNum / 13;
 document.write(divide + divideNum.toString() + "<br>")
 
 
 // Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie.
 var cost = "Total cost to buy 5 tickets to a movie is "
-var ticketPrice = 600;
+var ticketPrice = 1600;
 var tickets = 5;
 var total = ticketPrice * tickets;
 var store = " PKR "
@@ -59,36 +59,36 @@ document.write("<h2> Ticket Cost </h2>" + cost + total + store)
 
 
 // Write a script to display multiplication table of any number in your browser.
-var number1 = 5;
+var number1 = 8;
 document.write("<h2>Multiplication Table of " + number1 + "</h2>");
-var tableTemplate1 = "5x1=";
+var tableTemplate1 = "8x1=";
 var multiply1 = number1 * 1;
 document.write(tableTemplate1 + multiply1.toString() + "<br>");
-var tableTemplate2 = "5x2=";
+var tableTemplate2 = "8x2=";
 var multiply2 = number1 * 2;
 document.write(tableTemplate2 + multiply2.toString() + "<br>");
-var tableTemplate3 = "5x3=";
+var tableTemplate3 = "8x3=";
 var multiply3 = number1 * 3;
 document.write(tableTemplate3 + multiply3.toString() + "<br>");
-var tableTemplate4 = "5x4=";
+var tableTemplate4 = "8x4=";
 var multiply4 = number1 * 4;
 document.write(tableTemplate4 + multiply4.toString() + "<br>");
-var tableTemplate5 = "5x5=";
+var tableTemplate5 = "8x5=";
 var multiply5 = number1 * 5;
 document.write(tableTemplate5 + multiply5.toString() + "<br>");
-var tableTemplate6 = "5x6=";
+var tableTemplate6 = "8x6=";
 var multiply6 = number1 * 6;
 document.write(tableTemplate6 + multiply6.toString() + "<br>");
-var tableTemplate7 = "5x7=";
+var tableTemplate7 = "8x7=";
 var multiply7 = number1 * 7;
 document.write(tableTemplate7 + multiply7.toString() + "<br>");
-var tableTemplate8 = "5x8=";
+var tableTemplate8 = "8x8=";
 var multiply8 = number1 * 8;
 document.write(tableTemplate8 + multiply8.toString() + "<br>");
-var tableTemplate9 = "5x9=";
+var tableTemplate9 = "8x9=";
 var multiply9 = number1 * 9;
 document.write(tableTemplate9 + multiply9.toString() + "<br>");
-var tableTemplate10 = "5x10=";
+var tableTemplate10 = "8x10=";
 var multiply10 = number1 * 10;
 document.write(tableTemplate10 + multiply10.toString() + "<br>");
 
@@ -115,13 +115,13 @@ document.write(fahrenheit2 + "°F is " + celsius2 + "°C<br>");
 // e. Shipping charges
 // Compute the total cost & show the receipt in your browser.
 var price1 = "Price of item 1 is ";
-var amount1 = 180;
+var amount1 = 1q80;
 var quantity1 = "Ordered quantity of item 1 is 3";
 var price2 = "Price of item 2 is ";
-var amount2 = 120;
+var amount2 = 420;
 var quantity2 = "Ordered quantity of item 2 is 5";
 var shipping = "Shipping charges is ";
-var shippingCost = 50;
+var shippingCost = 90;
 var totalCost = "Total cost of your order is ";
 var total = (amount1 + amount2 + shippingCost);
 
@@ -131,9 +131,9 @@ document.write("<h2>Shopping Cart</h2>" + price1 + amount1.toString() + "<br>" +
 // Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in
 // your browser.
 var totalMarks = "Total Marks:";
-var total = 750;
+var total = 1880;
 var marksObtained = "Marks Obtained:";
-var marks = 600;
+var marks = 1200;
 var me = "Percentage: "
 var percentage = (marks / total) * 100;
 document.write("<h2>Mark Sheet</h2>" + totalMarks + total.toString() + "<br>" + marksObtained + marks.toString() + "<br>" + me + percentage.toString() + "%");
@@ -141,10 +141,10 @@ document.write("<h2>Mark Sheet</h2>" + totalMarks + total.toString() + "<br>" + 
 
 // Assume we have 10 US dollars & 25 Saudi Riyals. Write a script to convert the total currency to Pakistani Rupees. Perform all calculations in a single expression. (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
 // and 1 Saudi Riyal = 28 Pakistani Rupee)
-var usDollars = 10;
-var saudiRiyals = 25;
-var exchangeRateUSD = 104.80;
-var exchangeRateSAR = 28;
+var usDollars = 310;
+var saudiRiyals = 125;
+var exchangeRateUSD = 304.80;
+var exchangeRateSAR = 128;
 
 var totalRupees = (usDollars * exchangeRateUSD) + (saudiRiyals * exchangeRateSAR);
 

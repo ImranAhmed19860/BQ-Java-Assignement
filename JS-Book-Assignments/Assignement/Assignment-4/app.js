@@ -4,11 +4,11 @@
 // Declare 5 legal & 5 illegal variable names.
 
 // Legal
-var myVar = "Hello World";
-var userAlert = "I am an alert";
-var name$ = "Mahad";
-var message1 = "I am a message";
-var school_Name = "Happy Home School";
+// var myVar = "Hello World";
+// var userAlert = "I am an alert";
+// var name$ = "Imran Ahmed";
+// var message1 = "I am a message";
+// var school_Name = "Govt";
 
 // Illegal
 // below are the illegal variables,commented them out as it was showing errors
@@ -26,4 +26,4 @@ var school_Name = "Happy Home School";
 // e) Variable names should not be JS _________
 var rulesHeading = "<h1>Rules for naming JS variables</h1>";
 var rule = "Variable names can only contain numbers, $ and_. For example:my_1stVariable <br> Variables must begin with a letter,$ or _. For example:$name, _name or name <br> Variable names are case sensitive <br> Variable names should not be JS keywords";
-document.write(rulesHeading + rule);
+Console.write(rulesHeading + rule);
