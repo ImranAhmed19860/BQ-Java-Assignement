@@ -4,19 +4,20 @@
 // Declare 5 legal & 5 illegal variable names.
 
 // Legal
-// var myVar = "Hello World";
-// var userAlert = "I am an alert";
-// var name$ = "Imran Ahmed";
-// var message1 = "I am a message";
-// var school_Name = "Govt";
+var myVar = "Hello World";
+console.log(myVar)
+var userAlert = "I am an alert";
+var name$ = "Imran Ahmed";
+var message1 = "I am a message";
+var school_Name = "Govt";
 
 // Illegal
 // below are the illegal variables,commented them out as it was showing errors
-// var var ="I am illegal to write";
-// var Alert-me = "I am going to jail";
-// var my self ="I am in jail";
-// var journey-of-thy = "let me in";
-// var illegal+hack = "hacker";
+var var ="I am illegal to write";
+var Alert-me = "I am going to jail";
+var my self ="I am in jail";
+var journey-of-thy = "let me in";
+var illegal+hack = "hacker";
 
 // Display this in your browser
 // a) A heading stating “Rules for naming JS variables”
