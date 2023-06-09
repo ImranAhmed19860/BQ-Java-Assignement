@@ -40,9 +40,9 @@ document.write("<h2>Degrees</h2>"+"<br>"+degrees.join(""));
 // Write a program to store 3 student names in an array.Take another array to store score of these three students.
 // Assume that total marks are 500 for each student, display the scores & percentages of students like:
 var names = [];
-names[0] = "Ahsan";
+names[0] = "Imran ";
 names[1] = "Ahmed";
-names[2] = "Mahad";
+names[2] = "Muhammad Mahad";
 
 
 var totalMarks =500;

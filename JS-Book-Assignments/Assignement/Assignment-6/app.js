@@ -1,5 +1,5 @@
 // Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:
-var value = 1;
+var value = 12;
 var newValue = ++value;
 var newValue1 = value++;
 var newValue2 = --value;
@@ -16,8 +16,8 @@ document.write("<h2>Result:</h2>" + "<br>" + "The value of a is: " + value.toStr
 // --a - --b;
 // --a - --b + ++b;
 // --a - --b + ++b + b--;
-var a = 2;
-var b = 1;
+var a = 23;
+var b = 15;
 var aDecrement = --a
 var abDecrement = --a - --b;
 var abIncrement = --a - --b + ++b;
